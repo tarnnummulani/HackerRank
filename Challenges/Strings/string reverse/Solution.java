@@ -8,9 +8,9 @@ public class Solution {
         String A=sc.nextLine();
         /* Enter your code here. Print output to STDOUT. */
 		
-		String rev="";
-		int n=A.length();
-        for(int i=n-1;i>=0;i--){
+	String rev="";
+	int n=A.length();
+       	 for(int i=n-1;i>=0;i--){
 			rev+=A.charAt(i);
 		}
 		/*if(A.equals(rev)){

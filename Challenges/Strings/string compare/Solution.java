@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class Solution {
 
     public static void getSmallestAndLargest(String s, int k) {
-        
-		String smallest = s.substring(0,k);
-        String largest = s.substring(0,k);
+        String smallest = s.substring(0,k);
+        String largest =s.substring(0,k);
 		
         for(int i=0;i<=s.length()-k;i++){
 			String cStr=s.substring(i,i+k);
